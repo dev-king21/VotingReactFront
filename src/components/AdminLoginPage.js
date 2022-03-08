@@ -9,6 +9,7 @@ import {pageActions} from '../actions/pageInfo.action';
 import Particles from './Particles';
 
 
+
 import {
     Grid,
     CssBaseline,
@@ -150,7 +151,7 @@ export default function AdminLoginPage(){
                     setOpen(true);
                 }
             }).catch(err=>{
-                alert('3');
+                alert('4');
                 dispatch(alertActions.error("Some errors occurred while authenticating your wallet2."));
                 setOpen(true);
             })
